@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 
 createRoot(document.getElementById('root')).render(
     <Provider store={store}>
-  <BrowserRouter>
+  <BrowserRouter basename='/Ecops'>
     <App />
   </BrowserRouter>,
   </Provider>
